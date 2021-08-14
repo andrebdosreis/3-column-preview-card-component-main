@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://github.com/andrebdosreis/3-column-preview-card-component-main)
-- [Live Site URL:](https://andrebdosreis.github.io/3-column-preview-card-component-main/)
+- [Solution URL](https://github.com/andrebdosreis/3-column-preview-card-component-main)
+- [Live Site URL](https://andrebdosreis.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
@@ -70,7 +70,7 @@ Users should be able to:
 ## Author
 
 - Website - [André dos Reis](https://www.andredosreis.com.br)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/andrebdosreis)
+- Frontend Mentor - [@andrebdosreis](https://www.frontendmentor.io/profile/andrebdosreis)
 - Twitter - [@andrebdosreis](https://www.twitter.com/andrebdosreis)
 
 ## Acknowledgments
