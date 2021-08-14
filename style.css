@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --pri-bright-orange: hsl(31, 77%, 52%);
+    --pri-dark-cyan: hsl(184, 100%, 22%);
+    --pri-very-dark-cyan: hsl(179, 100%, 13%);
+    --neu-transp-white: hsl(0, 0%, 100%, 0.75); /*paragraphs*/
+    --neu-very-light-gray: hsl(0, 0%, 95%); /*bg, heading, btn*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--neu-very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--neu-transp-white);
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    padding: 0px 20px;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card:first-child{border-radius: 10px 0 0 10px;}
+.card:last-child{border-radius: 0 10px 10px 0;}
+
+
+.sedans {background-color: var(--pri-bright-orange);}
+.suvs {background-color: var(--pri-dark-cyan);}
+.lux {background-color: var(--pri-very-dark-cyan);}
+
+.icon {
+    padding-bottom: 40px;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: var(--neu-very-light-gray);
+    padding-bottom: 40px;
+}
+
+.description {
+    padding-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 45px;
+}
+
+.button a {
+    background-color: var(--neu-very-light-gray);
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.sedans a {color: var(--pri-bright-orange);}
+.suvs a {color: var(--pri-dark-cyan);}
+.lux a {color: var(--pri-very-dark-cyan);}
+
+.button a:hover {
+    padding: 18px 28px;
+    border: 2px solid var(--neu-very-light-gray);
+    background-color: transparent;
+    color: var(--neu-very-light-gray);
+}
+
+
+.attribution {
+    width: 100%;
+    color: var(--pri-very-dark-cyan);
+    position: fixed;
+    bottom: 20px;
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .main {
+        padding: 0px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container {
+        margin: 40px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card:first-child{border-radius: 10px 10px 0 0;}
+    .card:last-child{border-radius: 0 0 10px 10px;}
+
+    .button {
+        padding-top: 0px;
+    }
+
+    .attribution {
+        width: 100%;
+        position: static;
+        bottom: auto;
+        font-size: 11px; 
+        text-align: center;
+    }
+
+}
