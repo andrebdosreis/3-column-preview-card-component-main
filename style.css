@@ -26,7 +26,7 @@ main {
     display: flex;
     width: 100%;
     padding: 0px 20px;
-    height: 100vh;
+    height: 95vh;
 }
 
 .container {
@@ -95,21 +95,19 @@ h1 {
 }
 
 
-.footer {
+footer {
     width: 100%;
     color: var(--pri-very-dark-cyan);
-    position: fixed;
-    bottom: 20px;
     font-size: 11px; 
     text-align: center;
 }
 
-.footer a { 
+footer a { 
     text-decoration: none;
     color: hsl(228, 45%, 44%);
 }
 
-.footer a:hover {
+footer a:hover {
     font-weight: 700;
 }
 
@@ -135,12 +133,8 @@ h1 {
         padding-top: 0px;
     }
 
-    .attribution {
-        width: 100%;
-        position: static;
-        bottom: auto;
-        font-size: 11px; 
-        text-align: center;
+    footer {
+        margin-bottom: 40px;
     }
 
 }
