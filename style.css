@@ -22,7 +22,7 @@ body {
     color: var(--neu-transp-white);
 }
 
-.main {
+main {
     display: flex;
     width: 100%;
     padding: 0px 20px;
@@ -57,7 +57,7 @@ body {
     padding-bottom: 40px;
 }
 
-.title {
+h1 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     font-size: 34px;
@@ -95,7 +95,7 @@ body {
 }
 
 
-.attribution {
+.footer {
     width: 100%;
     color: var(--pri-very-dark-cyan);
     position: fixed;
@@ -104,15 +104,19 @@ body {
     text-align: center;
 }
 
-.attribution a { 
+.footer a { 
     text-decoration: none;
     color: hsl(228, 45%, 44%);
+}
+
+.footer a:hover {
+    font-weight: 700;
 }
 
 
 @media only screen and (max-width: 768px) {
     
-    .main {
+    main {
         padding: 0px;
         flex-direction: column;
         height: auto;
